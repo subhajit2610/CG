@@ -15,7 +15,6 @@ void main()
     printf("Enter the coordinates of the second point (x2, y2): ");
     scanf("%d%d", &x1, &y1);
 
-    x0 = 100 , y0 = 200, x1 = 500, y1 = 300;  
     dx = (float)(x1 - x0);  
     dy = (float)(y1 - y0);  
     if(dx>=dy)  
