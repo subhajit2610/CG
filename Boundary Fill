@@ -27,5 +27,6 @@ initgraph(&gd,&gm,"c:\\turboc3\\bgi");
 circle(x,y,radius);
 boundaryfill(x,y,4,15);
 delay(5000);
+getch();
 closegraph();
 }
