@@ -34,5 +34,7 @@ int main()
     printf("Enter co-ordinates of second point: ");  
     scanf("%d%d", &x1, &y1);  
     drawline(x0, y0, x1, y1);  
+    getch();
+    closegraph();
     return 0;  
 }  
